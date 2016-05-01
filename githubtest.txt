@@ -1,0 +1,11 @@
+ ssh -T git@github.com
+  111  ssh-keygen -t rsa -C "your_email@youremail.com"
+  112  path
+  113  ssh -T git@github.com
+  114  git remote add origin https://github.com/xuyouwen/pytessecart.git
+  115  echo "# pytessecart" >> README.md
+  116  git init
+  117  git add README.md
+  118  git commit -m "first commit"
+  119  git remote add origin https://github.com/xuyouwen/pytessecart.git
+  120  git push -u origin master
